@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styleme.css">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Headland+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mental Health</title>
+    <style>
+    body {
+      background-color:#FFFDD0
+    }
+    </style>
+  </head>
+  <body>
+
+    <ul>
+     <li><a href="https://school-talk.glitch.me/index(homepage).html" class="active" class="navItems" href="#home">HS Support</a></li>
+     <li><a class="navItems" href="#news">Help Center </a></li>
+     <li><a  class="navItems" href="#contact">Guidance</a></li>
+     <li><a href="https://s.codepen.io/Cnote121/debug/EpdPQo/bZrQWNNZKqgk#" class="navItems" href="#illness">Illnesses</a></li>
+     <li style="float:left;"><img src="SPERO.JPG" alt="logo" height="84" width="135">
+     </a>
+
+     </li>
+
+
+
+
+
+   </ul>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://storge.pic2.me/c/1360x800/361/584c7116f1f22.jpg" style="width:100%">
+  <div class="text">Your Illness is not your Identity</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://c.wallhere.com/photos/c6/33/1600x1000_px_forest_lake_landscape_mountain_nature_reflection_Snowy_Peak-700839.jpg!d" style="width:100%">
+  <div class="text">Hope is being able to see that there is light despite all of the darkness.</div>
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://www.mountainphotography.com/images/xl/20100822-Uncompahgre-Sunset.jpg" style="width:100%">
+  <div class="text">Not until we are lost do we begin to understand ourselves.</div>
+</div>
+
+</div>
+<br>
+
+<div >
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+
+<div class="row">
+  <h1 style="font-family:verdana;text-align:center">Who We Are</h1>
+  <div class="column">
+    <i class="fa fa-lightbulb-o" style="font-size:48px;color:black;"></i>
+    <h2>Our Mission</h2>
+    <p>Our mission is to help individuals who are dealing with mental
+  disorders and inform those who are trying to gain a better understanding of them.</p>
+  </div>
+  <div class="column">
+    <i class="fa fa-group" style="font-size:48px;color:black;"></i>
+    <h2>What We Do</h2>
+    <p>We provide resources such as guidance and support groups, as well as a website link to help high school students excel.</p>
+  </div>
+  <div class="column">
+    <i class="fa fa-question" style="font-size:48px;color:black;"></i>
+    <h2>Why Are We Different?</h2>
+    <p>We distinguish ourselves from others considering we are teens who are the most closest to relate with teens that are diagnosed with mental disorders.</p>
+  </div>
+</div>
+
+
+
+<h1 style="text-align:center;">What We Offer</h1>
+<h4 style="text-align:center;">Below is a brief description of what's included in Spero.</h4>
+<div class="row">
+  <div class="column" style="background-color:#FDFFDA;">
+    <h2>Illness Information</h2>
+    <p>Spero provides information on the four main types of mental
+    disorders, which are: depression, anorexia, anxiety, and bulimia.</p>
+  </div>
+  <div class="column" style="background-color:#FDFFDA;">
+    <h2>Guidance</h2>
+    <p>We believe it's important for people diagnosed with mental disorders
+      to have guidance throughout their daily lives. Considering this matter, we provided tips and advice
+      on how to keep a balance and positive day.</p>
+  </div>
+  <div class="column" style="background-color:#FDFFDA;">
+    <h2>Help Center</h2>
+    <p>Lastly, support groups are a way of individuals getting help if they are dealing with problems on their own. We
+    believe it's important to have a support system in order to not make wrong decisions later on.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <h1 style="font-family:verdana; text-align:center">Meet The Team</h1>
+  <br>
+<div id="hello">
+<div class="row">
+  <div class="column">
+    <div class="card">
+
+      <div class="container">
+        <img src="rr.jpg" alt="nicolet" style="width:175px; height:180px; border-radius:50%;">
+        <h2>Nicole Roberts</h2>
+        <p class="title">Coder</p>
+        <p style="font-size:16px; font-family:'Source Serif Pro', serif;">Nicole is a rising senior in highschool and
+  has a strong interest in both computer
+  science and psychology.She is proud to
+    be apart of the Spero website and hopes
+    that it could assist people who are
+    struggling with mental health.</p>
+<p>For any questions please email:</p>
+
+                <p>nicolejenniferr@gmail.com</p>
+                <a class="button" href="https://www.linkedin.com/in/nicole-roberts-78b587168/">Connect on LinkedIn</a>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <img src="https://cdn.glitch.com/7950cc45-bd68-4711-8f76-4f28e761ade7%2FIMG_jpg.jpeg?1534173625321" alt="sindi" style="width:175px; height:180px; border-radius:50%;">
+        <h2>Sindi Kurti</h2>
+        <p class="title">Coder</p>
+        <p style="font-size:16px; font-family:'Source Serif Pro', serif;">Sindi is a rising highschool senior
+      who has interests in many fields
+      of study. She hopes that Spero is
+      beneficial to anyone having a
+      hard time with their mental health.
+      If you ever need someone to talk
+     to feel free to contact her at
+     any time with the provided
+     links. </p>
+        <p>For any questions please email:</p>
+        <p>sindikurti01@gmail.com</p>
+        <a class="button" href="https://www.linkedin.com/in/sindi-kurti-95ab72167/">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <img src="ni.jpg" alt="nicolet" style="width:175px; height:180px; border-radius:50%;">
+        <h2>Nicole Tenempaguay</h2>
+        <p class="title">Coder</p>
+  <p style="font-size:16px; font-family:'Source Serif Pro', serif;">Nicole is a high school
+  rising junior at The Young
+Women's Leadership School of Astoria.
+She is passionate about web design and
+robotics. She and her team created Spero,
+which helps people deal with their
+mental disorders.
+  </p>
+        <p style="font-family:'Source Serif Pro', serif;">For any questions please email:</p>
+        <p style="font-family:'Source Serif Pro', serif;">nicolet@tywls-astoria.org</p>
+        <a class="button" href="https://www.linkedin.com/in/nicole-tenempaguay-582408169/">Connect on LinkedIn</a>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+  </body>
+</html>
